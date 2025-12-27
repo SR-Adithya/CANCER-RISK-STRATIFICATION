@@ -29,9 +29,9 @@ $$s =\frac{b-a}{\max⁡(a,b)}$$
 - **\(b\)**=average distance from the concern point to all points with nearest neighboring cluster.
 
 **Interpretation**
-- \(s \approx 0.60 to 1\) - Well - clustered data point
-- \(s \approx 0.21 to 0.59\) - weak clustering
-- \(s \approx 0 to 0.20\) - wrong clustering
+- \(s ≈ 0.60 to 1\) - Well - clustered data point
+- \(s ≈ 0.21 to 0.59\) - weak clustering
+- \(s ≈ 0 to 0.20\) - wrong clustering
 
 It should be observed that the silhouette score should be ranged between 0 and 1. Scores between 0 to 0.20 are considered to be wrong clustering, between 0.21 to 0.59 are weak clustering, and between 0.60 to 1 ensures the model predicts the correct cluster.
 Evaluated Value from the model: 
