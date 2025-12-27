@@ -22,11 +22,11 @@ Metrics used:
 	Silhouette Score: Utilized while developing a machine learning algorithm (specifically for K-Means Clustering), to measure the performance of clusters formed.
 	It forms the clusters by using the formula:
 
-$$s =\frac{b-a}{/max⁡(a,b)}$$
+$$s =\frac{b-a}{\max⁡(a,b)}$$
 
 **Where:** 
--**\(a\)**=average distance from the concern point to all other points in the same cluster.
--**\(b\)**=average distance from the concern point to all points with nearest neighboring cluster.
+- **\(a\)**=average distance from the concern point to all other points in the same cluster.
+- **\(b\)**=average distance from the concern point to all points with nearest neighboring cluster.
 
 **Interpretation**
 - \(s \approx 0.60 to 1\) - Well - clustered data point
