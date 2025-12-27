@@ -116,12 +116,6 @@ else:
     
 cancer_encoded_input = le.transform([cancer_input])[0]
 
-# NEW DATA PREDICTION
-
-#new_data = pd.DataFrame([[age, gender,smoke, alcohol, activity, diet, risk]],
-#                        columns=["Age","Gender","Smoking","Alcohol_Use",
-#                                 "Physical_Activity","Diet_Red_Meat",
-#                                 "Overall_Risk_Score"])
 
 new_data = pd.DataFrame([[
     age, smoke, alcohol, dietred, dietsalt, airp, ORF,
@@ -178,4 +172,4 @@ else:
     print("Goodbye! Stay healthy. ✨")
 
 
-#sample input: 45, 1, 4, 3, 6, 1, 5, 4, 6, 5, 3, 2, 0, 1, 7, 27.5, lung
+
