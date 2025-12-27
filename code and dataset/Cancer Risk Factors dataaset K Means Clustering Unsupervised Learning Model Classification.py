@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # read the file
 
-data = pd.read_csv("K:\\FITA class docs\\AIML\\My_Datasets\\Cancer Risk Factors dataaset\\cancer-risk-factors.csv")
+data = pd.read_csv("code and dataset/cancer-risk-factors.csv")
 
 # Check the dataset
 print(data.shape)
@@ -176,5 +176,6 @@ elif choice == "2":
         print(f"Cluster {i}: {c}")
 else:
     print("Goodbye! Stay healthy. ✨")
+
 
 #sample input: 45, 1, 4, 3, 6, 1, 5, 4, 6, 5, 3, 2, 0, 1, 7, 27.5, lung
